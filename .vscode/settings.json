@@ -1,3 +1,6 @@
 {
-  "ruby.rubocop.configFilePath": ""
+  "ruby.rubocop.configFilePath": "",
+  "emmet.preferences": {
+  "emmet.includeLanguages":{"*.erb": "html", "ruby": "html"}
+  }
 }

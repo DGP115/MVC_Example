@@ -14,4 +14,8 @@ Rails.application.routes.draw do
   #   In this case it is home
 
   root 'pages#home'
+  #  Adding an About (static) page.
+  #   The get tells Rails what to do and the
+  #   to tells it where to go to find the controller action for the About page
+  get 'about', to: 'pages#about'
 end

@@ -3,6 +3,10 @@
 # dsdsa
 class PagesController < ApplicationController
   def home
-    # ToDo
+    # Comment here to avoid rubocop offense
+  end
+
+  def about
+    # Comment here to avoid rubocop offense
   end
 end
